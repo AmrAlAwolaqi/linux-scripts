@@ -1,13 +1,13 @@
-#Updatesystemctlem
+# Updatesystemctlem
 sudo apt update
 sudo apt upgrade -y
 
-2. Install Apache
+# Install Apache
 sudo apt install apache2 -y
 sudo systemctl start apache2
 sudo systemctl enable apache2
 
-3. Install MySQL
+# Install MySQL
 sudo apt install mysql-server -y
 sudo mysql_secure_installation
 
