@@ -46,9 +46,6 @@ sudo chmod -R 755 /var/www/html/wordpress
 cd /var/www/html/wordpress
 sudo cp wp-config-sample.php wp-config.php
 sudo nano wp-config.php
-```
-## add this
-```
 define('DB_NAME', 'wordpress_db');
 define('DB_USER', 'wordpress_user');
 define('DB_PASSWORD', 'كلمة_المرور_التي_أنشأتها');
@@ -57,9 +54,6 @@ define('DB_HOST', 'localhost');
 # Setup Apache
 ```
 sudo nano /etc/apache2/sites-available/wordpress.conf
-```
-## Add this
-```
 <VirtualHost *:80>
     ServerAdmin admin@example.com
     DocumentRoot /var/www/html/wordpress
