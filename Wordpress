@@ -1,4 +1,4 @@
-1. Updatesystemctlem
+#1. Updatesystemctlem
 sudo apt update
 sudo apt upgrade -y
 
